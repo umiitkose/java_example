@@ -1,5 +1,5 @@
 
-package com.umiitkose.time;
+package com.umiitkose.calendar.time;
 
 import java.util.Date;
 import java.util.Locale;

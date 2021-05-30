@@ -1,4 +1,4 @@
-package com.umiitkose.time;
+package com.umiitkose.calendar.time;
 
 import java.util.Calendar;
 import java.util.Date;

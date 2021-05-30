@@ -17,4 +17,28 @@ public class ThisOrnegi {
         this();
         this.i = i;
     }
+
+    public void test(String a, String b){
+        System.out.println(a+b);
+    }
+
+    public void test(String a, int b){
+        System.out.println(a + " " + b);
+    }
+
+    public void test(int a, int b){
+        System.out.println(a + " " + b);
+    }
+
+    public void deneme(){
+        this.test("a",1);
+    }
+
+ /* static ile this kullanılmaz.
+    public static void staticThis(){
+        this.test(1,1);
+    }*/
+
+
+
 }
