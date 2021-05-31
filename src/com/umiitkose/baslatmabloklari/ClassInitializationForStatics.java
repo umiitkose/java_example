@@ -43,7 +43,6 @@ class ClassA {
 }
 
 class ClassB extends ClassA {
-
 	static {
 		System.out.println("in static initializer block of ClassB");
 	}
