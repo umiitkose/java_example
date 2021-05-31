@@ -37,7 +37,6 @@ class ClassA {
 		System.out.println("in static initializer block of ClassA");
 	}
 
-
 	protected static void f() {
 		System.out.println("in f()");
 	}
