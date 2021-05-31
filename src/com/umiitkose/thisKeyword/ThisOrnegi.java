@@ -18,6 +18,11 @@ public class ThisOrnegi {
         this.i = i;
     }
 
+    public ThisOrnegi(int i, int a){
+        this(i);
+        System.out.println(i + a);
+    }
+
     public void test(String a, String b){
         System.out.println(a+b);
     }

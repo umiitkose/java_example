@@ -14,6 +14,21 @@ public class Kumanda {
         this.acKapaTusunaBas = acKapaTusunaBas;
     }
 
+    public boolean isAcKapaTusunaBas() {
+        return acKapaTusunaBas;
+    }
+
+    public void setAcKapaTusunaBas(boolean acKapaTusunaBas) {
+        this.acKapaTusunaBas = acKapaTusunaBas;
+    }
+
+    public TV getTv() {
+        return tv;
+    }
+
+    public void setTv(TV tv) {
+        this.tv = tv;
+    }
 
 
 }
