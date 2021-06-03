@@ -8,7 +8,7 @@ public class ShapeFactory {
 	public static Shape produceShape()  {
 		Shape shape = null;
 		
-		int i = Math.abs(random.nextInt() % 100);
+		int i =random.nextInt() % 100;
 		if(i % 2 == 0)
 			shape = new Circle(i);
 		else

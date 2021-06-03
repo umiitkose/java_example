@@ -7,11 +7,11 @@ public class ShapeTest {
 		for(int i = 0; i<5; i++) {
 			Shape shape = null;
 			shape = ShapeFactory.produceShape();
-//			try {
-//				shape = ShapeFactory.produceShape();
-//			} catch (NegativeArgumentException e) {
-//				processNegativeArgumentException(e);
-//			}
+			try {
+				shape = ShapeFactory.produceShape();
+			} catch (NegativeArgumentException e) {
+				processNegativeArgumentException(e);
+			}
 			if(shape != null)
 				test.display(shape);
 			

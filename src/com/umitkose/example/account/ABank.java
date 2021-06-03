@@ -52,18 +52,30 @@ NOT:
 • Sınıflara istediğiniz ek özellikleri(değişkenler ve methodlar) ekleyebilirsiniz.
 • Hesap bakiyeleri tam sayı(int) olmak zorundadır
 */
-import java.util.Date;
 
-public class Bank extends Account{
+import java.time.LocalDate;
+import java.time.Period;
 
-    public Bank(int id, String name, String surname, Date hesapAcilisTarihi, int bakiye) {
+public class ABank extends Account {
+
+    private HesapTurEnum hesapTurEnum;
+
+    public ABank(int id, String name, String surname, String hesapAcilisTarihi, int bakiye, HesapTurEnum hesapTurEnum) {
         super(id, name, surname, hesapAcilisTarihi, bakiye);
+        this.hesapTurEnum = hesapTurEnum;
     }
 
-    public void shortTerm(Account account,Long islemTarihi){
-        if(bakiye>999){
+    @Override
+    double benefit(Account account) {
+        double kar = 0.0;
+        LocalDate islemTarihi = LocalDate.now();
+        LocalDate hesapAcilisTarihi = LocalDate.parse(account.getHesapAcilisTarihi());
 
+        Period diff = Period.between(islemTarihi, hesapAcilisTarihi);
+        if (diff.getYears() > 0) {
+            kar = account.getBakiye() * 1.03;
         }
+        return kar;
     }
 
 
