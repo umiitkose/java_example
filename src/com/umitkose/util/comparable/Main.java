@@ -39,16 +39,18 @@ public class Main {
         personList.add(new Person("Sümeyye", 3));
         personList.add(new Person("Buse", 7));
         personList.add(new Person("Nazlı", 4));
-
         Collections.sort(personList);
         personList.forEach(person -> System.out.println(person.id + " " + person.name ));
+
         System.out.println("------------");
+
         List<Author> authorList = new ArrayList<>();
         authorList.add(new Author("Ümit",28));
         authorList.add(new Author("Okan",18));
         authorList.add(new Author("Burak",12));
         authorList.add(new Author("Berke",42));
         Collections.sort(authorList);
+        //Collections.sort(authorList,Collections.reverseOrder()); tersten sıralayacaksam
         authorList.forEach(author -> System.out.println(author.age + " " + author.name));
 
     }
