@@ -1,7 +1,7 @@
 
-package org.javaturk.oofp.ch04.localClass;
+package com.umitkose.icsiniflar.localClass;
 
-import org.javaturk.oofp.ch04.anonymous.doer.DoerInterface;
+import com.umitkose.icsiniflar.anonymous.doer.DoerInterface;
 
 public class LocalDoerClassTest {
 	

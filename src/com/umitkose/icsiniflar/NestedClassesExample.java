@@ -1,4 +1,4 @@
-package org.javaturk.oofp.ch04;
+package com.umitkose.icsiniflar;
 
 //import org.javaturk.oofp.ch04.TopCass.InnerClass;
 
@@ -102,6 +102,10 @@ class TopCass {
 
 			public LocalClass2() {
 				System.out.println("\nin LocalClass2()");
+			}
+
+			{
+				System.out.println("test");
 			}
 
 			public void doLocal() {

@@ -1,4 +1,4 @@
-package org.javaturk.oofp.ch09.lambda;
+package com.umitkose.fonksiyonelprogramlama.lambda;
 
 import static java.lang.Math.*;
 

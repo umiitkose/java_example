@@ -1,5 +1,5 @@
 
-package org.javaturk.oofp.ch04.anonymous.doer;
+package com.umitkose.icsiniflar.anonymous.doer;
 
 public class WeirdAnonymousDoerClassTest {
 	private int i = 8;

@@ -1,4 +1,4 @@
-package org.javaturk.oofp.ch04.localClass;
+package com.umitkose.icsiniflar.localClass;
 
 public class LocalClassExample {
 

@@ -15,9 +15,7 @@ public class Test {
         int i = (int) 3.8225496780777157;
         System.out.println(i);
 
-
     }
-
 
 
 }
