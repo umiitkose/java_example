@@ -1,4 +1,4 @@
-package org.javaturk.oofp.ch04.staticClass;
+package com.umitkose.icsiniflar.staticClass;
 
 public class CitizenTest {
 

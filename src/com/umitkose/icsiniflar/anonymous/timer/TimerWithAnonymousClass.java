@@ -1,4 +1,4 @@
-package org.javaturk.oofp.ch04.anonymous.timer;
+package com.umitkose.icsiniflar.anonymous.timer;
 
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;

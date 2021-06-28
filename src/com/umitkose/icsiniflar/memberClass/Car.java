@@ -1,4 +1,4 @@
-package org.javaturk.oofp.ch04.memberClass;
+package com.umitkose.icsiniflar.memberClass;
 
 public class Car {
 
